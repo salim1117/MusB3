@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MusB Diagnostics | Fast, Affordable Local Lab Testing</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="https://maps.app.goo.gl/ufuE9nK6r8P4q5V96" target="_blank" class="text-light me-4"><i
+                            class="fas fa-map-marker-alt text-primary me-2"></i>Location</a>
+                    <a href="tel:8134190781" class="text-light me-4"><i
+                            class="fas fa-phone-alt text-primary me-2"></i>(813)
+                        419-0781</a>
+                    <a href="mailto:info@musbdiagnostics.com" class="text-light me-0"><i
+                            class="fas fa-envelope text-primary me-2"></i>info@musbdiagnostics.com</a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="https://www.facebook.com/p/MusB-Diagnostics-61573528440734/" target="_blank"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/MusbDiagnostics" target="_blank"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/musb.diagnostics/" target="_blank"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/company/musb-res" target="_blank"
+                        class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 py-lg-0">
+            <div class="container border-bottom-0 pb-0">
+                <a href="index.html" class="navbar-brand p-0 d-flex align-items-center">
+                    <img src="img/logo.jpg" alt="MusB Diagnostics Logo" style="height: 55px; margin-right: 15px;">
+                    <h3 class="text-primary m-0 fw-bold">MusB Diagnostics</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#tests" class="nav-item nav-link active">Tests</a>
+                        <a href="#wellness-panels" class="nav-item nav-link">Wellness Panels</a>
+                        <a href="#physicians" class="nav-item nav-link">Physicians</a>
+                        <a href="#facilities" class="nav-item nav-link">Professional</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="#"
+                        class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0">Book
+                        Now</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- Carousel Start -->
+        <div class="header-carousel owl-carousel">
+            <div class="header-carousel-item">
+                <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image">
+                <div class="carousel-caption">
+                    <div class="carousel-caption-content p-3">
+                        <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"></h5>
+                        <h1 class="display-1 text-capitalize text-white mb-4">Fast, Affordable, and Local Diagnostic
+                            Testing</h1>
+                        <p class="mb-5 fs-5">Your neighborhood lab for self-pay patients, community physicians,
+                            facilities, and mobile phlebotomy. No doctor’s order required. Transparent pricing. Same- or
+                            next-day appointments.
+                        </p>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Tests</a>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5 ms-3" href="#">View Wellness
+                            Panels</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-carousel-item">
+                <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                <div class="carousel-caption">
+                    <div class="carousel-caption-content p-3">
+                        <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;"></h5>
+                        <h1 class="display-1 text-capitalize text-white mb-4">Fast, Affordable, and Local Diagnostic
+                            Testing</h1>
+                        <p class="mb-5 fs-5 animated slideInDown">Your neighborhood lab for self-pay patients, community
+                            physicians, facilities, and mobile phlebotomy. No doctor’s order required. Transparent
+                            pricing. Same- or next-day appointments.
+                        </p>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5" href="#">Book Tests</a>
+                        <a class="btn btn-primary rounded-pill text-white py-3 px-5 ms-3" href="#">View Wellness
+                            Panels</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+    </div>
+    <!-- Navbar & Hero End -->
+
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img pb-5 ps-5">
+                        <img src="img/Why Choose Us.png" class="img-fluid rounded w-100" style="object-fit: cover;"
+                            alt="Image">
+
+                        <!-- 15 years experience removed -->
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-4 fs-3">Why Choose Us</h4>
+                        <p class="mb-4 fs-5">We make diagnostic testing accessible and affordable for everyone.</p>
+                        <div class="mb-4 mt-4">
+                            <p class="text-secondary mb-4"><span class="text-primary fw-bold me-2"
+                                    style="font-size: 1.2rem;">1.</span> Self-Pay Friendly –
+                                upfront prices and fast results.</p>
+                            <p class="text-secondary mb-4"><span class="text-primary fw-bold me-2"
+                                    style="font-size: 1.2rem;">2.</span> Walk-In or
+                                Appointment – simple online booking.</p>
+                            <p class="text-secondary mb-4"><span class="text-primary fw-bold me-2"
+                                    style="font-size: 1.2rem;">3.</span> Mobile Phlebotomy –
+                                home, ALFs, rehabs, churches, and community centers.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Services Start -->
+    <div id="wellness-panels" class="container-fluid service py-5 section-spacing">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="sub-style">
+                    <h4 class="sub-title px-3 mb-0">Popular Wellness Panels</h4>
+                </div>
+                <p class="mb-0 fs-4">Choose from our popular wellness panels with upfront pricing.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded border border-primary bg-white h-100">
+                        <div
+                            class="service-content rounded-bottom bg-transparent p-4 text-start d-flex flex-column h-100">
+                            <div class="service-content-inner flex-grow-1">
+                                <p class="text-primary text-uppercase fw-bold mb-2"
+                                    style="font-size: 0.8rem; letter-spacing: 1px;">MOST POPULAR</p>
+                                <h5 class="mb-3 text-dark fw-bold">Essential Wellness Panel</h5>
+                                <img src="img/Essential Wellness Panel.jpg" class="img-fluid rounded mb-3"
+                                    alt="Essential Wellness Panel">
+                                <p class="mb-3 text-secondary" style="font-size: 0.95rem;">Annual health check with CBC,
+                                    CMP, Lipid Panel, Thyroid, and Urinalysis.
+                                </p>
+                            </div>
+                            <div class="mt-auto">
+                                <h4 class="text-success mb-3" style="font-size: 2rem;">From $49</h4>
+                                <a href="#" class="btn btn-primary rounded w-100 text-white py-2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded border bg-white h-100 shadow-sm"
+                        style="box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;">
+                        <div
+                            class="service-content rounded-bottom bg-transparent p-4 text-start d-flex flex-column h-100">
+                            <div class="service-content-inner flex-grow-1">
+                                <h5 class="mb-3 text-dark fw-bold mt-4">Women’s Health & Hormone Panel</h5>
+                                <img src="img/Women’s Health & Hormone Panel.jpg" class="img-fluid rounded mb-3"
+                                    alt="Women’s Health & Hormone Panel">
+                                <p class="mb-3 text-secondary" style="font-size: 0.95rem;">Thyroid, hormones, vitamins,
+                                    metabolism and more.</p>
+                            </div>
+                            <div class="mt-auto">
+                                <h4 class="text-success mb-3" style="font-size: 2rem;">From $129</h4>
+                                <a href="#" class="btn btn-primary rounded w-100 text-white py-2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded border bg-white h-100 shadow-sm"
+                        style="box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;">
+                        <div
+                            class="service-content rounded-bottom bg-transparent p-4 text-start d-flex flex-column h-100">
+                            <div class="service-content-inner flex-grow-1">
+                                <h5 class="mb-3 text-dark fw-bold mt-4">Men’s Health & Testosterone Panel</h5>
+                                <img src="img/Men’s Health & Testosterone Panel.jpg" class="img-fluid rounded mb-3"
+                                    alt="Men’s Health & Testosterone Panel">
+                                <p class="mb-3 text-secondary" style="font-size: 0.95rem;">Testosterone, thyroid,
+                                    vitamins, lipids, and general health.</p>
+                            </div>
+                            <div class="mt-auto">
+                                <h4 class="text-success mb-3" style="font-size: 2rem;">From $129</h4>
+                                <a href="#" class="btn btn-primary rounded w-100 text-white py-2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item rounded border bg-white h-100 shadow-sm"
+                        style="box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;">
+                        <div
+                            class="service-content rounded-bottom bg-transparent p-4 text-start d-flex flex-column h-100">
+                            <div class="service-content-inner flex-grow-1">
+                                <h5 class="mb-3 text-dark fw-bold mt-4">Metabolic & Weight Health Panel</h5>
+                                <img src="img/Metabolic & Weight Health Panel.jpg" class="img-fluid rounded mb-3"
+                                    alt="Metabolic & Weight Health Panel">
+                                <p class="mb-3 text-secondary" style="font-size: 0.95rem;">Glucose, HbA1c, lipids,
+                                    inflammation, insulin and more.</p>
+                            </div>
+                            <div class="mt-auto">
+                                <h4 class="text-success mb-3" style="font-size: 2rem;">From $99</h4>
+                                <a href="#" class="btn btn-primary rounded w-100 text-white py-2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 px-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="d-flex align-items-center justify-content-between bg-light rounded p-4 border"
+                            style="background-color: #f8f9fa !important;">
+                            <p class="mb-0 text-dark fw-bold" style="font-size: 1.1rem;">Explore our complete list of
+                                comprehensive panel options.</p>
+                            <a class="btn btn-primary rounded text-white py-2 px-4" href="#">View All Panels</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+    <!-- Individual Tests Start -->
+    <div id="tests" class="container-fluid py-5 section-spacing" style="background-color: #f8f9fa;">
+        <div class="container py-5 text-center">
+
+            <!-- Section Title -->
+            <div class="section-title mb-4">
+                <h1 class="display-4 fw-bold text-dark mb-3">Individual Tests</h1>
+                <p class="fs-5 text-muted mb-4">
+                    Choose from dozens of blood, urine, hormone, vitamin, infection, and wellness tests. Clear pricing.
+                    Simple results. No appointments required.
+                </p>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5 shadow-sm">
+                Browse All Tests
+            </a>
+
+        </div>
+    </div>
+    <!-- Individual Tests End -->
+
+    <!-- Feature Start -->
+    <div id="how-it-works" class="container-fluid feature py-5 section-spacing">
+        <div class="container py-5">
+            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="sub-style">
+                    <h1 class="sub-title px-3 mb-0">How It Works</h1>
+                </div>
+                <p class="mb-0">Follow these simple steps to get your diagnostics done quickly and affordably.</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-diagnoses fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Choose your tests.</h5>
+                                <p class="mb-0">Select panels or individual tests with upfront prices.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-briefcase-medical fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Book your visit.</h5>
+                                <p class="mb-0">Pick our New Port Richey lab or request mobile phlebotomy for home or
+                                    facilities.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-hospital-user fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Pay online.</h5>
+                                <p class="mb-0">Secure and fast checkout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row-cols-1 feature-item p-4">
+                        <div class="col-12">
+                            <div class="feature-icon mb-4">
+                                <div class="p-3 d-inline-flex bg-white rounded">
+                                    <i class="fas fa-users fa-4x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="feature-content d-flex flex-column">
+                                <h5 class="mb-4">Get your results.</h5>
+                                <p class="mb-0">Most results available within 24–48 hours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img pb-5 ps-5">
+                        <img src="img/mobilephlebotomy.webp" class="img-fluid rounded w-100" style="object-fit: cover;"
+                            alt="Mobile Phlebotomy">
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">Mobile Phlebotomy Services</h4>
+                        <h1 class="display-3 mb-4">We bring the lab to you.</h1>
+                        <p class="mb-4">We offer mobile blood and urine collection for:</p>
+                        <div class="mb-4">
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Seniors at home.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Assisted Living, Memory Care, SNFs, and rehabs.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Primary care offices and specialists.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Community centers, churches, and organizations.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Request
+                            Mobile Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div id="physicians" class="container-fluid about bg-light py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-12 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">For Community Physicians</h4>
+                        <h1 class="display-3 mb-4">Partner with MusB Diagnostics for reliable, local
+                            testing.</h1>
+                        <p class="mb-4">We provide:</p>
+                        <div class="mb-4">
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Same-day home or office draws.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Fast
+                                results for CBC, CMP, thyroid, vitamins, hormones, lipids, A1c, and
+                                more.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Drop-off and pickup services.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Referral programs for ongoing clinical trials.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Dedicated support for your staff.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Physician
+                            Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div id="facilities" class="container-fluid about bg-light py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-12 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">For Facilities</h4>
+                        <h1 class="display-3 mb-4">Support your residents with on-site weekly blood and
+                            urine collection.</h1>
+                        <p class="mb-4">MusB offers:</p>
+                        <div class="mb-4">
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Scheduled weekly routes.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Standing orders and routine panels.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Special senior pricing.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Rapid communication with facility nurses and administrators.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Facility
+                            Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img pb-5 ps-5">
+                        <img src="img/carousel-1.jpg" class="img-fluid rounded w-100" style="object-fit: cover;"
+                            alt="Image">
+                        <div class="about-img-inner">
+                            <img src="img/carousel-2.jpg" class="img-fluid rounded-circle w-100 h-100" alt="Image">
+                        </div>
+                        <!-- 15 years experience removed -->
+                    </div>
+                </div>
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">Why MusB Diagnostics?</h4>
+                        <h1 class="display-3 mb-4">Your Trusted Local Lab</h1>
+
+                        <div class="mb-4">
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                CLIA-certified, COLA-accredited lab.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Local team with strong community service.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Senior-friendly services.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Affordable, transparent pricing for self-pay patients.</p>
+                            <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>
+                                Trusted by physicians, long-term care facilities, and families.</p>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">About
+                            Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Specials Start -->
+    <div class="container-fluid specials py-5 section-spacing">
+        <div class="container py-5">
+            <div class="d-flex justify-content-between align-items-end mb-5 wow fadeInUp gap-3 flex-wrap"
+                data-wow-delay="0.1s">
+                <div class="me-auto">
+                    <h1 class="display-4 fw-bold text-dark mb-2">Current Specials</h1>
+                    <p class="fs-5 text-muted mb-0">Limited-time offers designed to provide affordable, high-quality
+                        diagnostic testing.</p>
+                </div>
+                <a href="#" class="text-primary fw-bold fs-5 text-decoration-none" style="white-space: nowrap;">See All
+                    Offers</a>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="special-card special-card-1 p-5 d-flex flex-column h-100 text-white">
+                        <div class="special-badge mb-4">LIMITED-TIME OFFER</div>
+                        <h2 class="text-white fw-bold mb-2">Holiday Wellness Special</h2>
+                        <h1 class="special-price text-white fw-bold mb-4">$49</h1>
+                        <p class="mb-5 flex-grow-1">Includes 42-test wellness panel + free urinalysis.</p>
+                        <a href="#" class="btn btn-light rounded-pill py-3 w-100 fw-bold special-btn-1">Claim Offer</a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="special-card special-card-2 p-5 d-flex flex-column h-100 text-white">
+                        <div class="special-badge mb-4">ASK OUR TEAM</div>
+                        <h2 class="text-white fw-bold mb-4">Senior Wellness Discount</h2>
+                        <p class="mb-5 flex-grow-1">Special pricing for adults 60+.</p>
+                        <a href="#" class="btn btn-light rounded-pill py-3 w-100 fw-bold special-btn-2">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="special-card special-card-3 p-5 d-flex flex-column h-100 text-white">
+                        <div class="special-badge mb-4">GROUP VALID</div>
+                        <h2 class="text-white fw-bold mb-4">Free Home Pickup for Groups of 5+</h2>
+                        <p class="mb-5 flex-grow-1">Offer valid for home and community groups.</p>
+                        <a href="#" class="btn btn-light rounded-pill py-3 w-100 fw-bold special-btn-3">Schedule
+                            Group</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Specials End -->
+
+    <!-- Book Appointment Start -->
+    <div id="contact" class="container-fluid appointment py-5 section-spacing">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+
+                <!-- 40% Contact Info Side -->
+                <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="section-title text-start mb-5">
+                        <h4 class="sub-title pe-3 mb-0">Contact Us</h4>
+                        <h1 class="display-4 mb-4">Get In Touch</h1>
+                    </div>
+
+                    <div class="d-flex flex-column gap-4">
+                        <div>
+                            <h3 class="h5 fw-bold text-dark mb-1">Call Us Directly</h3>
+                            <p class="text-primary fs-3 fw-bold mb-0">(813) 419-0781</p>
+                        </div>
+
+                        <div>
+                            <h3 class="h5 fw-bold text-dark mb-1">Email Support</h3>
+                            <p class="text-muted mb-0">info@musbdiagnostics.com</p>
+                        </div>
+
+                        <div>
+                            <h3 class="h5 fw-bold text-dark mb-1">Location</h3>
+                            <p class="text-muted mb-0">New Port Richey, FL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 60% Form Side -->
+                <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="bg-white rounded-4 shadow-sm border border-light p-4 p-lg-5">
+                        <h2 class="display-6 fw-bold text-dark mb-2">Send a Message</h2>
+                        <p class="text-muted mb-4 pb-2">We typically respond within 24 hours.</p>
+
+                        <form>
+                            <div class="row gy-3 gx-4">
+                                <div class="col-xl-6">
+                                    <input type="text"
+                                        class="form-control py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input"
+                                        placeholder="First Name">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="email"
+                                        class="form-control py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input"
+                                        placeholder="Email">
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="tel"
+                                        class="form-control py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input"
+                                        placeholder="Phone">
+                                </div>
+                                <div class="col-xl-6">
+                                    <select
+                                        class="form-select py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input">
+                                        <option selected>Your Gender</option>
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+                                        <option value="3">Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-6">
+                                    <input type="date"
+                                        class="form-control py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input">
+                                </div>
+                                <div class="col-xl-6">
+                                    <select
+                                        class="form-select py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input">
+                                        <option selected>Select Service</option>
+                                        <option value="1">Wellness Panels</option>
+                                        <option value="2">Individual Tests</option>
+                                        <option value="3">Mobile Phlebotomy</option>
+                                        <option value="4">Physician Services</option>
+                                        <option value="5">Facility Services</option>
+                                        <option value="6">General Inquiry</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea
+                                        class="form-control py-3 px-4 border rounded-3 bg-white text-dark shadow-none custom-input"
+                                        cols="30" rows="5" placeholder="Write Comments"></textarea>
+                                </div>
+                                <div class="col-12 mt-4">
+                                    <button type="button"
+                                        class="btn btn-primary text-white w-100 py-3 rounded-pill fw-bold fs-5">Submit
+                                        Message</button>
+                                </div>
+                                <div class="col-12 text-center mt-3">
+                                    <p class="small text-muted mb-0"><i class="fas fa-lock me-1"></i> Your information
+                                        is secure and HIPAA compliant.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Video -->
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Book Appointment End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4 d-flex align-items-center">
+                            <img src="img/logo.jpg" alt="MusB Diagnostics Logo"
+                                style="height: 40px; margin-right: 15px;">
+                            MusB Diagnostics
+                        </h4>
+                        <p>Your neighborhood lab for self-pay patients, community physicians, facilities, and mobile
+                            phlebotomy.
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-share fa-2x text-white me-2"></i>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.facebook.com/p/MusB-Diagnostics-61573528440734/" target="_blank"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://x.com/MusbDiagnostics" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.instagram.com/musb.diagnostics/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://linkedin.com/company/musb-res" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Quick Links</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">MusB Diagnostics</h4>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Wellness Panels</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Individual Tests</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Mobile Phlebotomy</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Physician Services</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Facility Services</a>
+                        <a href=""><i class="fas fa-angle-right me-2"></i> Book Appointment</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Contact Info</h4>
+                        <a href="https://maps.app.goo.gl/ufuE9nK6r8P4q5V96" target="_blank"><i
+                                class="fa fa-map-marker-alt me-2"></i> New Port Richey, FL, USA</a>
+                        <a href="mailto:info@musbdiagnostics.com"><i class="fas fa-envelope me-2"></i>
+                            info@musbdiagnostics.com</a>
+                        <a href="tel:8134190781" class="mb-3"><i class="fas fa-phone me-2"></i> (813) 419-0781</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>MusB
+                            Diagnostics</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
