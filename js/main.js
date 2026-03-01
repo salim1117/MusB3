@@ -13,7 +13,9 @@
 
 
     // Initiate the wowjs
-    new WOW().init();
+    new WOW({
+        mobile: false // Disable heavy animations on mobile devices
+    }).init();
 
 
     // Sticky Navbar
